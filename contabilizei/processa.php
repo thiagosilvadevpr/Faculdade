@@ -11,5 +11,12 @@ $Conn = new conexao();
 $Conn->conectaDB();
 mysqli_query($Conn->conectaDB(), $result_cliente);
 
+$select_cliente = "SELECT * FROM CLIENTE";
+mysqli_query($Conn->conectaDB(), $select_cliente);
+
+
+
+
+
 
 ?>
