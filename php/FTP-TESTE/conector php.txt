@@ -1,0 +1,16 @@
+<?php
+$host = "localhost";
+$user= "root";
+$pass= "";
+$banco="bootstrap-php";
+
+$link = mysqli_connect ($host,$user,$pass,$banco);
+
+if(mysqli_connect($link)){
+	echo "Erro de conexão";
+}else{
+	echo "Conexão OK!";
+}
+
+
+?>
